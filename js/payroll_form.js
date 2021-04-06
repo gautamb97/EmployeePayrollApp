@@ -40,7 +40,7 @@ function createAndUpdateStorage(employeePayrollData){
     } else {
         employeePayrollList = [employeePayrollData]
     }
-    alert(employeePayrollList.toString());
+    alert("Success!!!");
     localStorage.setItem("EmployeePayrollList", JSON.stringify(employeePayrollList))
 }
 

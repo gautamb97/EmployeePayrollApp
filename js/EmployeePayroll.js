@@ -1,7 +1,7 @@
 class EmployeePayrollData{
     
     //getter and setter method
-    get(id) {return this._id;}
+    get id() {return this._id;}
     set id(id){
         this._id = id;
     }
