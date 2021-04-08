@@ -40,7 +40,6 @@ window.addEventListener('DOMContentLoaded', (event) =>{
 
 const save = (event) => {
     event.preventDefault();
-    //event.stopPropogation();
     try{
         setEmployeePayrollObject();
         if(site_properties.use_local_storage.match("true")){
